@@ -6,8 +6,8 @@ namespace Consumo_de_APIs
     public partial class Form1 : Form
     {
         private readonly HttpClient client = new HttpClient();
-        private const string GoogleMapsApiKey = "AIzaSyCbNrr6UXAZ4Ln68ovfsB2V2tfWGKwCvXI";
-        private const string WeatherApiKey = "aabbb8e371ae2f44eff35fd0d218463f";
+        private const string GoogleMapsApiKey = "";
+        private const string WeatherApiKey = "";
         private JObject resultados;
         string rutaImagen = Path.Combine(Application.StartupPath, "Resources", "inicio.png");
         public Form1()
